@@ -1,0 +1,86 @@
+# This list is via http://stackoverflow.com/questions/2143956/gitignore-for-visual-studio-projects-and-solutions
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.unsuccessfulbuild
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+Ankh.NoLoad
+
+#MonoDevelop
+*.pidb
+*.userprefs
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+*.sass-cache
+
+#Project files
+[Bb]uild/
+
+#Subversion files
+.svn
+
+# Office Temp Files
+~$*
+
+# vim Temp Files
+*~
+
+#NuGet
+packages/
+*.nupkg
+
+#ncrunch
+*ncrunch*
+*crunch*.local.xml
+
+# visual studio database projects
+*.dbmdl
+
+#Test files
+*.testsettings
+Asuse birst/
+APIs/Si538xInternal/Work/
+Apps/Desktop/ClockBuilder/NDependOut/
+NDependOut
+APIs/Si538xInternal/Output/
+Samples/WpfObfuscationIssue1/CryptoObfuscator_Output/
+Libraries/Free/Windows/Ookii.Dialogs/src/_UpgradeReport_Files/
+Libraries/Free/Windows/Ookii.Dialogs/src/UpgradeLog.htm
+Libraries/Free/Windows/Ookii.Dialogs/src/UpgradeLog.XML
+Libraries/Free/Generic/Free.Misc/Library/Resources/Resource.designer.cs
+Libraries/Muegel/Mobile/Com.Muegel.Mobile/Resources/Resource.designer.cs
+Libraries/SiLabs/Com.SiLabs.Timing.Device.Si538x_4x/Library/Resources/Resource.designer.cs
+Libraries/SiLabs/Com.SiLabs.Timing.Device/Library/Resources/Resource.designer.cs
+Libraries/SiLabs/Com.SiLabs.Timing.USBXpress/Library/Resources/Resource.designer.cs
+*.orig
+APIs/Si538xForIT/Assemblies/
